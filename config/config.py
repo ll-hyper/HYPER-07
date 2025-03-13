@@ -15,7 +15,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "TheChampuBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "mi_music_robot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -52,7 +52,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002357707746"))
 
 # Your User ID.
 OWNER_ID = list(
@@ -76,11 +76,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/akaChampu"
-)  # Example:- https://t.me/akaChampu
+    "SUPPORT_CHANNEL", "https://t.me/FRIENSHIP_CLUB_GROUP"
+)  # Example:- https://t.me/FRIENSHIP_CLUB_GROUP
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheChampuClub"
-)  # Example:- https://t.me/TheChampuClub
+    "SUPPORT_GROUP", "https://t.me/FEELING_SMILEY"
+)  # Example:- https://t.me/FEELING_SMILEY
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
 
@@ -171,17 +171,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://telegra.ph/file/d3e855bc548a1ce9649e7.jpg",
+    "https://iili.io/3BzdACu.md.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/33591be403ae3eaae7217.jpg",
+    "https://iili.io/3BzdACu.md.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/b860df3e144c2208a7e5a.jpg",
+    "https://iili.io/3BzdACu.md.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
